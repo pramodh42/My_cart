@@ -5,7 +5,8 @@ import {getDatabase,ref,push,onValue,remove} from "https://www.gstatic.com/fireb
 
 const appsettings =
 {
-    databaseURL : "", //enter the firebase database url
+    databaseURL : "https://cart-4d12f-default-rtdb.firebaseio.com/",
+    
 
 }
 const app= initializeApp(appsettings); 
